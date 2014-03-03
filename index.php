@@ -18,9 +18,18 @@ include("init/data.php");
                 <?php include("init/header.php"); ?>
             </header>
 
-            <nav id="main_menu">		<ul>			<li><a href="/" title="Homepage">Home</a></li>			<li>Projects</li>		</ul>	</nav>
+            <nav id="main_menu">		        <ul>			        <li><a href="/" title="Homepage">Home</a></li>			        <li>Projects</li>		        </ul>	        </nav>
 
-            <footer>
+            <section id="main_section">
+                <header>
+                    <h1>Latest project:</h1>
+                </header>
+                <footer>
+                    <?php include("init/latestproject.php"); ?>
+                </footer>
+            </section>
+
+            <footer id="footer">
                 <h3>Copyright Lexware 2014</h3>
             </footer>
 
