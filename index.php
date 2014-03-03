@@ -12,11 +12,19 @@ include("init/data.php");
     </head>
     <body>
 
-        <header id="header">
-            <a href="http://scratch.mit.edu/users/malgm" title="malgm on Scratch"><img src="/res/logo_malgm.png" alt="malgm logo" width="100" height="100" /></a>
-            <a href="http://scratch.mit.edu/users/lexOS" title="lexOS on Scratch"><img src="/res/logo_lexos.png" alt="lexos logo" width="100" height="100" /></a>
-            <h1>Lexware</h1>
-        </header>
+        <div id="big_wrapper">
+
+            <header id="hp_logo">
+                <?php include("init/header.php"); ?>
+            </header>
+
+            <nav id="main_menu">		<ul>			<li><a href="/" title="Homepage">Home</a></li>			<li>Projects</li>		</ul>	</nav>
+
+            <footer>
+                <h3>Copyright Lexware 2014</h3>
+            </footer>
+
+        </div>
         
     </body>
 </html>
