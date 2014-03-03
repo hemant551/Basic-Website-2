@@ -27,7 +27,7 @@ include("init/data.php");
                         <h2>Minecraft Version Installer</h2>
                     </header>
                     <footer>
-                        Availible on <a href="https://github.com/lexware/Minecraft-Version-Installer" title="Github">Github</a>
+                        Available on <a href="https://github.com/lexware/Minecraft-Version-Installer" title="Github">Github</a>
                     </footer>
                 </article>
                 <article>
@@ -35,7 +35,7 @@ include("init/data.php");
                         <h2>FreeOS live development</h2>
                     </header>
                     <footer>
-                        Availible on <a href="http://scratch.mit.edu/projects/18028834" title="Github">Scratch</a>
+                        Available on <a href="http://scratch.mit.edu/projects/18028834" title="Github">Scratch</a>
                     </footer>
                 </article>
             </section>
