@@ -18,7 +18,7 @@ include("init/data.php");
                 <?php include("init/header.php"); ?>
             </header>
 
-            <nav id="main_menu">		        <ul>			        <li><a href="/" title="Homepage">Home</a></li>			        <li>Projects</li>		        </ul>	        </nav>
+            <nav id="main_menu">		        <?php include("init/navigation.php"); ?>	        </nav>
 
             <section id="main_section">
                 <header>
@@ -30,7 +30,7 @@ include("init/data.php");
             </section>
 
             <footer id="footer">
-                <h3>Copyright Lexware 2014</h3>
+                <?php include("init/footer.php"); ?>
             </footer>
 
         </div>
