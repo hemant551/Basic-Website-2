@@ -9,7 +9,7 @@ include("init/data.php");
     <head>
         <meta charset="utf-8" />
         <title><?php echo $title?> | Projects</title>
-        <link rel="stylesheet" type="text/css" href="/style/main.css">
+        <?php include("init/head.php"); ?>
     </head>
     <body>
 
@@ -20,8 +20,8 @@ include("init/data.php");
             </header>
 
             <nav id="main_menu">
-		<?php include("init/navigation.php"); ?>
-	    </nav>
+		        <?php include("init/navigation.php"); ?>
+	        </nav>
 
             <section id="main_section">
 
