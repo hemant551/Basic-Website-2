@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages>
+    <link>
+        <title>Lexware</title>
+        <url>/</url>
+    </link>
+    <link>
+        <title>Lexware | Minecraft Version Installer</title>
+        <url>/mvi.php</url>
+    </link>
+</pages>

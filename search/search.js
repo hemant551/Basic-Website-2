@@ -1,6 +1,3 @@
-        <link rel="stylesheet" type="text/css" href="/style/main.css">
-        <link rel="stylesheet" type="text/css" href="/style/header.css">
-        <script>
 function showResult(str)
 {
 if (str.length==0)
@@ -25,7 +22,6 @@ xmlhttp.onreadystatechange=function()
     document.getElementById("livesearch").style.border="1px solid #A5ACB2";
     }
   }
-xmlhttp.open("GET","/search/livesearch.php?q="+str,true);
+xmlhttp.open("GET","livesearch.php?q="+str,true);
 xmlhttp.send();
 }
-        </script>
