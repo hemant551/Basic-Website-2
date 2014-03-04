@@ -19,7 +19,9 @@ include("init/data.php");
                 <?php include("init/header.php"); ?>
             </header>
 
-            <nav id="main_menu">		        <?php include("init/navigation.php"); ?>	        </nav>
+            <nav id="main_menu">
+		<?php include("init/navigation.php"); ?>
+	    </nav>
 
             <section id="main_section">
 
