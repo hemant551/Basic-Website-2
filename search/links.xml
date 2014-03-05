@@ -8,4 +8,12 @@
         <title>Lexware | Minecraft Version Installer</title>
         <url>/mvi.php</url>
     </link>
+    <link>
+        <title>Google UK</title>
+        <url>https://www.google.co.uk/</url>
+    </link>
+    <link>
+        <title>Scratch</title>
+        <url>http://scratch.mit.edu/</url>
+    </link>
 </pages>
